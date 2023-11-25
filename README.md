@@ -15,4 +15,4 @@ como parte do projeto de conclusão do curso de técnico em desenvolvimento de s
 ## Colaboradores
 
 
-| [Adriano](https://github.com/adriano-ramoss) | [Henrique](https://github.com/1Henri1) | [Francisca](https://github.com/fran22etec) | [Gustavo](https://github.com/GustavoVFA) | [Ryan](https://github.com/RyanLucio)
+| [Adriano](https://github.com/adriano-ramoss) | [Henrique](https://github.com/1Henri1) | [Fran](https://github.com/fran22etec) | [Gustavo](https://github.com/GustavoVFA) | [Ryan](https://github.com/RyanLucio)
