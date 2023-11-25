@@ -1,0 +1,134 @@
+/* CSS Global */
+
+/* Importação da fonte */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Open+Sans:wght@300;700&display=swap');
+
+/* Definições gerais de estilo */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Zerando margens e paddings de todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*btn*/
+
+.btn-global {
+  border-radius: 30px;
+  font-size: 95%;
+  background-color: #ff0065;
+  color: #fff;
+  font-weight: bolder;
+  border: 2px solid transparent;
+  cursor: pointer;
+  width: 32%;
+  padding: 12px 18px;
+  margin-top: 10%;
+  align-self: center;
+}
+
+/* Estilo para o botão de login no hover */
+.btn-global:hover {
+  color: #ff0065;
+  font-size: 95%;
+  font-weight: bold;
+  background-color: #fff;
+  border-color: #ff0065;
+}
+
+
+/*navbar*/
+
+#navtext { 
+  margin-left: 17vh;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#navexit { 
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  background-color: #000;
+  color: #ff0065!important;
+  border-radius: 15px;
+}
+/*menu para celular*/
+.mobile-menu{
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-menu div{
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+} 
+
+/*borda cinza - div*/
+.box {
+  background-color: #fff;
+  border: 16px solid #ccc;
+  border-radius: 28px;
+  width: 100%;
+}
+
+/* FIM NAVBAR */
+
+
+
+
+@media screen and (max-width: 1020px) {
+/*texto coordenação*/
+    #navtext {
+      margin-left: 15vh;
+      margin-right: 25vh;
+    }
+
+/*classe do texto do menu que aparece e desaparece*/
+    .hidden{
+        position: static;
+        top: 8vh;
+        right: 0;
+        width: 100vw;
+        height: 45vh;
+        background: #000;
+        align-items: center;
+        margin: 0;
+        align-content: space-evenly ;
+        text-align: center;
+        padding: 0;
+  }
+/*para aparecer o icone de menu*/
+  .mobile-menu {
+    display: block;
+  }
+
+
+@media screen and (max-width: 740px) {
+
+    #navtext {
+      margin-left: 2vh;
+      margin-right: 20vh;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #navtext {
+      margin-left: 2vh;
+      margin-right: 5vh;
+    }
+
+}
+
+}

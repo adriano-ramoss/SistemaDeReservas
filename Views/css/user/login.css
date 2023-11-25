@@ -1,0 +1,205 @@
+/* Conteúdo principal da tela de Login */
+.content {
+    border-radius: 30px;
+    background-color: #fff;
+    height: 90%;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Linha vertical que separa as colunas */
+  .content::before {
+    border-radius: 30px 0 0px 30px;
+    content: "";
+    justify-content: space-between;
+    position: absolute;
+    background-color: #000;
+    width: 40%;
+    height: 100%;
+  }
+
+  .loginRequest {
+  background-color: #FFCACA;
+  border: 2px solid #a60202;
+  color: #a60202;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/*password toggle*/
+
+.pass {
+  position: absolute;
+  top: 100%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+  
+  /* Primeira coluna (logo e texto de boas-vindas) */
+  .first-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Container que envolve a tela de Login */
+  .container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4f4f4f;
+  }
+  
+  /* Logo */
+  .img-login {
+    width: 40%;
+    height: 40%;
+  }
+  
+  /* Estilo para o título de boas-vindas */
+  
+  .first-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    flex: 1 0;
+  }
+  
+  /* Segunda coluna (formulário de login) */
+  .second-column {
+    flex: 1 0 auto;
+    display: flex;
+    height: 56%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilo para o título de login */
+  .title-login {
+    color: #ff0065;
+    font-size: 250%;
+    font-weight: bold;
+  }
+  
+  /* Estilo para o título de boas-vindas na segunda coluna */
+  .title-welcome {
+    color: #fff;
+    font-size: 200%;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  /* Estilo para a descrição na segunda coluna */
+  .description {
+    font-size: 80%;
+    font-weight: bolder;
+    line-height: 20px;
+    color: #fff;
+  }
+  
+  /* Estilo para o campo de entrada de CPF e senha */
+  .input-login {
+    padding-left: 30px;
+    color: #9d9d9d;
+    width: 100%;
+  }
+  
+  /* Estilo para o formulário de login */
+  .form {
+    margin-top: 14%;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
+  
+  /* Estilo para os campos de entrada do formulário */
+  .form input {
+    height: 200%;
+    border-radius: 20px;
+    background-color: #fff;
+    font-weight: normal;
+    border: solid #ff0065;
+  }
+  
+  .form input:focus {
+    outline: none; /* Remove o contorno padrão do navegador quando o input está em foco */
+    border-color: #ff0065;
+    box-shadow: 0 0 5px #ff0065;
+  }
+  
+  /* Estilo para a posição do ícone no campo de entrada */
+  .input-wrapper {
+    position: relative;
+    margin-top: 10%;
+  }
+  
+  /* Estilo para o ícone no campo de entrada */
+  .input-icon {
+    position: absolute;
+    color: #9d9d9d;
+    top: 100%;
+    left: 10px;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+    .message {
+      text-align: justify;
+      margin-top: 5%;
+    }
+  
+    .senha-message {
+      font-size:75%;
+      font-weight: bold;
+      color: red;
+      margin-top: 5vh;
+      position: relative;
+      padding-left: 10px;
+    }
+  @media screen and (max-width: 1040px) {
+    .content {
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+      top: 0;
+    }
+  
+    .content::before {
+      width: 100%;
+      height: 25%;
+      top: 0;
+      border-radius: 0;
+    }
+    .first-content,
+    .second-content {
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  
+    .first-column {
+      width: 100vw;
+      height: 100vh;
+      flex: initial;
+    }
+  
+    .second-column {
+      width: 100%;
+    }
+  
+    .sign-in-js .content::before {
+      top: 60%;
+      left: 0;
+      border-radius: 0;
+    }
+  
+    .form {
+      width: 80%;
+    }
+  }

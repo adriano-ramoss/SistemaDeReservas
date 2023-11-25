@@ -1,0 +1,31 @@
+form {
+    padding: 24px;
+}
+
+.form-group textarea {
+    resize: none;
+    outline: none;
+    scrollbar-width: none;
+}
+
+#btn-enviar {
+    width: 250px;
+    font-size: 21px;
+    border: 0;
+    border-radius: 110px;
+    background-color: #FF0066;
+}
+
+.text-center {
+    padding: 16px;
+}
+
+#titulo{
+    font-size: 60px;
+    color: #ff0066;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}

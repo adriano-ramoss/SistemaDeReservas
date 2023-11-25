@@ -1,0 +1,156 @@
+.box {
+    background-color: #fff;
+    border: 16px solid #ccc;
+    border-radius: 28px;
+    width: 100%;
+  }
+
+  .card {
+    background-color: lightgray;
+  }
+
+
+  #alert-lab{
+    height: auto;
+    width: 45%;
+  }
+
+  #alert-lab2{
+    margin: 30px;
+    font-weight: bold;
+  }
+  
+  .btn-labs {
+    border-radius: 30px;
+    font-size: 12px;
+    background-color: #ff0065;
+    color: #fff;
+    font-weight: bolder;
+    border: 2px solid transparent;
+    cursor: pointer;
+    width: 32%;
+    padding: 12px 18px;
+    margin-top: 10%;
+    align-self: center;
+  }
+  
+  .botao-centralizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+  
+  }
+  
+#link-card{
+  color: #ccc;
+}
+
+#link-card:hover{
+  color: #ff0065;
+  font-size: 12px;
+  font-weight: bolder;
+  background-color: #fff;
+    border-color: #ff0065;
+}
+
+  /* Estilo para o botão de login no hover */
+  .btn-labs:hover {
+    color: #ff0065;
+    font-size: 12px;
+    font-weight: bolder;
+    background-color: #fff;
+    border-color: #ff0065;
+  }
+  
+
+  #titulo{
+    font-size: 60px;
+    color: #ff0066;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+  
+  
+  form {
+    flex: 1;
+    padding: 24px;
+  }
+  
+  h2{
+    color: #0e0d0d;
+  }
+  
+  .navbar-brand {
+    margin-left: 25px;
+  }
+  
+  #btn-consultar { /*//Botão Consultar*/
+    font-size: 21px;
+    border: 0;
+    border-radius: 110px;
+    background-color: #FF0066;
+  }
+
+  
+  @media (max-width: 1200px){
+    .btn-labs, .btn-global {
+    border-radius: 25px;
+    font-size: 10px;
+    height: 48px;
+    padding: 12px 12px;
+  }
+
+  .btn-global:hover {
+  font-size: 10px;
+  }
+
+
+  /* Responsividade Tela laboratórios */
+  @media (max-width: 767px) {
+    .navbar-nav {
+      text-align: center;
+    }
+    
+    .navbar-nav .nav-item {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+
+    #alert-lab2{
+        flex-wrap: wrap;
+  }
+
+  #titulo{
+    font-size: 30px;
+  }
+
+    }
+    
+    @media (max-width: 575px) {
+    .navbar-brand {
+      display: block;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    
+    .navbar-toggler {
+      margin: 0 auto;
+    }
+    
+    .form-select,
+    .form-control {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .img {
+      max-width: 100%;
+  
+    }
+    }

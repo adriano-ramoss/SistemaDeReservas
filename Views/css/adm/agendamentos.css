@@ -1,0 +1,210 @@
+body, ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+/*navbar*/
+
+#navtext { 
+    margin-left: 17vh;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  #navexit { 
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  /* FIM NAVBAR */
+
+
+
+
+
+/* TITULO AGENDAMENTOS */
+
+#titulo{
+    font-size: 70px;
+    color: #ff0066;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* FIM TITULO */
+
+
+#btn-delete {
+    border-radius: 10px;
+    width: 45%;
+    background-color: #f06;
+    border: solid 2px #f06;
+}
+
+#btn-edit{
+    border-radius: 10px;
+    width: 45%;
+    background-color: #f06;
+    border: solid 2px #f06;
+}
+
+#btn-edit:hover{
+    color: #f06;
+    background-color: white;
+}
+
+#btn-delete:hover{
+    color: #f06;
+    background-color: white;
+}
+
+#th-right{
+    border-top-right-radius: 30px;
+}
+
+#th-left{
+    border-top-left-radius: 30px;
+}
+
+#alert-lab2{
+    font-weight: bold;
+  }
+
+/* INICIO TABELA */
+
+.table_section{
+    height: 600px;
+    overflow: auto;
+}
+
+button{
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px;
+    color: #ffffffff;
+}
+
+td button:nth-child(1){
+    background-color: #0298cf;
+}
+td button:nth-child(2){
+    background-color: #f06;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    border-collapse:collapse;
+    table-layout: fixed;
+    min-width: 1000px;
+}
+
+td{
+    background-color: #ccc8ca;
+}
+
+thead th{
+    position: sticky;
+    top:0;
+    background-color:#000000;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+th, td{
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 20px;
+    word-break: break-all;
+    text-align: center;
+}
+
+tr{
+    height: 100px;
+}
+
+/* FIM TABELA */
+
+
+@media screen and (max-width: 767px) {
+    .text-center, tr{
+        height: 70px;
+    }
+    thead th{
+    font-size: 10px;
+}
+ table{
+    min-width: 80vw;
+    max-width: 90vw;
+    width: 100vw;
+ }
+ th, td{
+    padding: 5px 10px;
+  }
+td{
+    font-size: 12px;
+}
+.btn-group, .btn-group-vertical {
+    width: 45px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#titulo{
+    font-size: 40px;
+}
+
+#btn-delete{
+    width: 30px;
+    height: 30px;
+     display: grid;
+     align-items: center;
+    justify-items: center;
+}
+.material-symbols-rounded{
+    font-size: 25px;
+    position: absolute;
+
+}
+}
+
+
+@media screen and (max-width: 370px) {
+    .btn-group{
+        width: 30px;
+    }
+     thead th{
+    font-size: 7px;
+}
+#btn-delete{
+    width: 25px;
+    height: 25px;
+}
+.material-symbols-rounded{
+    font-size: 21px;
+    position: absolute;
+
+}
+}
+
+
+@media screen and (max-width: 315px) {
+#btn-delete{
+    width: 20px;
+    height: 20px;
+}
+.material-symbols-rounded{
+    font-size: 16px;
+    position: absolute;
+
+}
+}
