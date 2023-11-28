@@ -1,5 +1,5 @@
 <?php
-include_once("../../Controler/protect.php");
+include_once("../../Controler/protectUser.php");
 include_once("../../Controler/user/minhas_reservas.php");
 
 if (!isset($_SESSION)) {

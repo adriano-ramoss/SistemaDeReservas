@@ -1,6 +1,6 @@
 <?php
 
-include_once("../../Controler/protect.php");
+include_once("../../Controler/protectUser.php");
 
 if (!isset($_SESSION)) {
     session_start();

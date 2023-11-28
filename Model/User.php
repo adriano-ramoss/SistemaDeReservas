@@ -47,6 +47,8 @@ class User
                     header("Location: ../../Views/adm/Agendamentos.php");
                     exit();
                 }
+
+
             } else {
                 // Senha incorreta
                 $_SESSION['mensagemSenha'] = 'Senha inválida, tente novamente.';
@@ -56,10 +58,12 @@ class User
             $_SESSION['mensagemSenha'] = 'Usuário não encontrado, tente novamente.';
         }
 
-        // Redirecione de volta para a página de login
+        //Redirecione de volta para a página de login
         header("Location: ../../index.php");
         exit();
     }
+
+
 
 
 

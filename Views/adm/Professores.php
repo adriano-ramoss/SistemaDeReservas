@@ -1,6 +1,6 @@
 <?php
 
-include_once("../../Controler/protect.php");
+include_once("../../Controler/protectAdm.php");
 include_once("../../Controler/adm/professores.php");
 include_once("../../Config/url.php");
 

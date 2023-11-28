@@ -1,7 +1,5 @@
 <?php
 
-include_once("Config/url.php");
-
 if(!isset($_SESSION)){
   session_start();
 

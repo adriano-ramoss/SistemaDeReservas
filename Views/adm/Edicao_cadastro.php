@@ -2,7 +2,7 @@
 
 include_once("../../Config/url.php");
 include_once("../../Controler/adm/editar_cadastro.php");
-include_once("../../Controler/protect.php");
+include_once("../../Controler/protectAdm.php");
 
 if (!isset($_SESSION)) {
   session_start();

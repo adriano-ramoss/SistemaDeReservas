@@ -51,6 +51,9 @@ VALUES
     ("Laboratorio 2", "/labDs.jpg", "Ds"),
     ("Laboratorio 3", "/labDs.jpg", "Ds");
 
+INSERT INTO laboratorios(nome_lab, caminho_img)
+VALUES
+    ("Auditório", "/auditorio.jpg");
 DELIMITER //
 
 CREATE PROCEDURE InserirReserva(
