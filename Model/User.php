@@ -82,7 +82,7 @@ WHERE l.id_lab NOT IN (
         OR (:hora_saida BETWEEN r.hora_entrada AND r.hora_saida)
         OR (:hora_entrada <= r.hora_entrada AND :hora_saida >= r.hora_saida)
     )
-) AND l.tipo_lab = :tipo_lab";
+) AND  (l.tipo_lab = :tipo_lab OR l.tipo_lab = 'Geral')";
 
         $stmt = $this->con->prepare($query);
 
@@ -112,11 +112,6 @@ WHERE l.id_lab NOT IN (
 
         $stmt->execute();
     }
-
-
-
-
-
 
 
 
