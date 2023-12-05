@@ -139,7 +139,7 @@ if (!isset($_SESSION)) {
 
                   <a id="btn-edit" class="btn btn-secondary" role="Button" href="<?= $BASE_URL ?>Edicao_cadastro.php?id_usu=<?= $usuario['id_usu'] ?>"><span class="material-symbols-rounded">edit</span></a>
 
-                  <!-- Editar Usuarios - fi -->
+                  <!-- Editar Usuarios - fim -->
 
       </div>
       </td>
